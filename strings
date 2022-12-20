@@ -1,0 +1,13 @@
+import java.util.*;
+
+class Strings {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        String name = s.nextLine();
+        String fname = s.nextLine();
+        System.out.println("my name is" + name);
+        System.out.println("my name is" + fname);
+        s.close();
+
+    }
+}
